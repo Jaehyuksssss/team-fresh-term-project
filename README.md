@@ -381,7 +381,7 @@ const handle = {
 ```jsx
 <script
   type="text/javascript"
-  src="//dapi.kakao.com/v2/maps/sdk.js?appkey=560ae8612c6fe2f2328c5dba4bbc3b2f"
+  src="//dapi.kakao.com/v2/maps/sdk.js?appkey=..."
 ></script>
 ```
 
