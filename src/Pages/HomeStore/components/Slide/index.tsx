@@ -13,15 +13,15 @@ interface Slider {
 export default function Slider() {
   const [slideIndex, setSlideIndex] = useState(1)
 
-  const len = DATA_SLIDER.length
-
   const moveDot = (index: React.SetStateAction<number>) => {
     setSlideIndex(index)
   }
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setSlideIndex((slideIndex) => (slideIndex === len ? 1 : slideIndex + 1))
+      setSlideIndex((slideIndex) =>
+        slideIndex === DATA_SLIDER.length ? 1 : slideIndex + 1,
+      )
     }, 2000)
     return () => clearInterval(interval)
   }, [slideIndex])
