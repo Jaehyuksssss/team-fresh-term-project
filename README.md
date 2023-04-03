@@ -127,7 +127,7 @@ useEffect(() => {
 
 ### 5. Nav 드롭다운 구현 , Nav scroll 감지 후 헤더 색상 변경
 
-- Team-fresh의 navbar에 있는 데이터를 활용하여 메뉴 위 hover 시 드롭다운 메뉴 구현
+- Team-fresh의 navbar에 있는 상수 데이터를 활용하여 메뉴 위 hover 시 드롭다운 메뉴 구현
 
 - scroll시에 nav는 고정이 되고 움직이면 색상이 변경되도록 구현
 
@@ -376,7 +376,7 @@ const handle = {
 
 - 위도와 경도를 계산하여 markup 구현
 
-- title onClick시에 각각에 맞는 id를 저장하고 그에 맞는 지도가 나옴 (본사와 하남센터만 구현)
+- title onClick시에 각각에 맞는 id를 저장하고 그에 맞는 지도가 나옴
 
 ```jsx
 <script
