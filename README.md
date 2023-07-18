@@ -4,7 +4,7 @@ Team fresh 사이트를 클론한 프로젝트
 - 개발 인원 : 1인 (임재혁)
 - 구현 페이지 : Home , 회사소개 , service 페이지
 - 그 외에는 empty 문구로 처리 (recruit , support 페이지)
-- 회고 :[회고](https://jaehyuksss.tistory.com/23)
+- 회고 : [회고](https://jaehyuksss.tistory.com/23)
 ## 실행 방법
 
 ```
